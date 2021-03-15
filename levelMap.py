@@ -27,9 +27,9 @@ class LevelMap:
 
         self.generator()
 
-        #self.playerY = startY
-        #self.playerX = startX
-        #self.placeobj(self.playerX, self.playerY, 'O')
+        self.playerY = startY
+        self.playerX = startX
+        self.placeobj(self.playerX, self.playerY, 'O')
 
     def generator(self):
         for i in range(self.width * 2):
@@ -79,6 +79,7 @@ class LevelMap:
                 self.map_array[self.playerY][self.playerX] = ' '
                 self.map_array[self.playerY][self.playerX + 1] = '0'
                 self.playerX += 1
+
 
 if __name__ == '__main__':
     mapp = LevelMap(9, 9, 1, 1)
