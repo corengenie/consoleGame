@@ -14,7 +14,7 @@ def printui():
     player_floor = 14
 #     console.print(f'''
 # [bold green]Здоровье: [/bold green][white on green]{health}[/white on green]
-# __ffhkfghkfghjffgggggggggggggggggggggggggggggh__
+# __ffhkfghkfghjffgggggggggggggggggggggh__
 # [bold cyan]Will[/bold cyan]
 #     ''', justify="center")
 
